@@ -1,32 +1,23 @@
 # NewsApp
 
-Welcome to NewsApp, a news application built with MVVM architecture and Jetpack Compose.
+A news application built with MVVM architecture and Jetpack Compose.
 
 ## Major Highlights
 
 - **Jetpack Compose** for modern UI
 - **Offline caching** with a **single source of truth**
 - **MVVM architecture** for a clean and scalable codebase
-- **Kotlin** and **Kotlin DSL**
 - **Dagger Hilt** for efficient dependency injection.
 - **Retrofit** for seamless networking
 - **Room DB** for local storage of news articles
 - **Coroutines** and **Flow** for asynchronous programming
-- **StateFlow** for streamlined state management
 - **Pagination** to efficiently load and display news articles
-- **Unit tests** and **UI tests** for robust code coverage
 - **Instant search** for quick access to relevant news
 - **Navigation** for smooth transitions between screens
 - **WebView** for a seamless reading experience
-- **WorkManager** for periodic news fetching
-- **Notification** for alerting about latest news
 - **Coil** for efficient image loading
 - Pull to refresh for refreshing news content
 - Swipe to delete for managing saved news articles
-
-<p align="center">
-<img alt="mvvm-architecture"  src="https://github.com/khushpanchal/NewsApp/blob/master/assets/News_app_architecture.jpeg">
-</p>
 
 ## Features Implemented
 
@@ -44,23 +35,6 @@ Welcome to NewsApp, a news application built with MVVM architecture and Jetpack 
 - Dagger Hilt for Dependency Injection: Simplifies dependency injection
 - Room for Database: A SQLite object mapping library for local data storage
 - Paging Compose for Pagination: Simplifies the implementation of paginated lists
-- Mockito, JUnit, Turbine for Testing: Ensures the reliability of the application
-
-## How to Run the Project
-
-- Clone the Repository:
-```
-git clone https://github.com/khushpanchal/NewsApp.git
-cd NewsApp
-```
-- Visit newsapi.org and sign up for an API key, Copy the API key provided
-- Open the build.gradle.kts file in the app module. Find the following line
-```
-buildConfigField("String", "API_KEY", "\"<Add your API Key>\"")
-```
-- Replace "Add your API Key" with the API key you obtained
-- Build and run the NewsApp.
-
 
 ## The Complete Project Folder Structure
 
@@ -148,19 +122,4 @@ buildConfigField("String", "API_KEY", "\"<Add your API Key>\"")
 └── worker
     └── NewsWorker.kt
 ```
-
-<p align="center">
-<img alt="screenshots"  src="https://github.com/khushpanchal/NewsApp/blob/master/assets/News_app.jpeg">
-</p>
-
-## If this project helps you, show love ❤️ by putting a ⭐ on this project ✌️
-
-## Contribute to the project
-
-Feel free to improve or add features to the project.
-Create an issue or find the pending issue. All pull requests are welcome 😄
-
-## Other projects
-I have also created RVTimeTracker - RecyclerView Time Tracker, a finely crafted library designed to accurately calculate viewing time for each item in RecyclerView.
-Check it out - [RVTimeTracker](https://github.com/khushpanchal/RVTimeTracker)
 
